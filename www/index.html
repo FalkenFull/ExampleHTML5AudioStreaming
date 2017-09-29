@@ -23,19 +23,18 @@
 	<script type="text/javascript" charset="utf-8" src="scripts/html5audio.js"></script>
   </head>
   <body>
-	  <h2>Example HTML5 Audio Streamer app</h2>
-  	  	  <div id="playcontrols">
+	  <h2 style="text-align:center;font-family:sans-serif;font-weight:bold;background-color:#434343;color:white;">ExampleHTML5AudioStreaming</h2></body></html>
+  	  <div id="playcontrols" >
 		  <a href="#" id="playbutton" onClick="html5audio.play();return false;"><img src="images/playbutton.png" /></a>
-		  <a href="#" id="activityindicator" onClick="html5audio.stop();return false;"><img src="images/activityindicator.gif" /></a>
+		  <a href="#" id="activityindicator" onClick="html5audio.stop();return false;"><img src="images/activityindicator.gif" alt="Smiley face" height="128" width="128" /></a>
 		  <a href="#" id="stopbutton" onClick="html5audio.stop();return false;"><img src="images/stopbutton.png" /></a>
 	  </div>
-	  <div id="textpositiondiv">ime Played: <span id="textposition">Stoped</span></div>
+	  <div id="textpositiondiv" style=" font-family:verdana;text-align:center;font-weight:bold;background-color:#434343;color:white;" >Tempo tocado: <span id="textposition">Parado</span></div>
 	  <script type="text/javascript">
 		  playButton = document.getElementById('playbutton');
 		  stopButton = document.getElementById('stopbutton');
 		  activityIndicator = document.getElementById('activityindicator');
 		  textPosition = document.getElementById('textposition');
 	  </script>
-
   </body>
 </html>
